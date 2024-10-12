@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACT3</title>
+    <script src="js/index.js"></script>
+</head>
+<body>
+
+    <div>
+        <div>
+            <div>
+                <label for="">Show Sandwich 1</label>
+                <input type="submit" value="showSandwich-1"  onclick="showSandwitch(sandwich1)">
+            </div>
+            <div>
+                <label for="">Eating Sandwich 1</label>
+                <input type="button" value="Eating sandwich1" onclick="eatingSandwich(sandwich1)">
+            </div>
+        </div>
+    
+        <div>
+            <div>
+                <label for="">Show Sandwich 2</label>
+                <input type="submit" value="showSandwich-2" onclick="showSandwitch(sandwich2)">
+            </div>
+            <div>
+                <label for="">Eating Sandwich 2</label>
+                <input type="button" value="Eating sandwich2" onclick="eatingSandwich(sandwich2)">
+            </div>
+        </div>
+    </div>
+
+    <div id="showSandwichs">
+
+    </div>
+
+    <script>
+        let sandwich1 = new Sandwich("Jamón", "hot bread");
+        let sandwich2 = new Sandwich("Jamón y queso", "toast bread");
+    </script>
+</body>
+</html>

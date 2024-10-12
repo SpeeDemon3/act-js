@@ -24,7 +24,6 @@ for (element in cars) {
  * @param {*} array 
  */
 function showCars(array = cars) {
-    cars.is
     let output = document.getElementById("showCars");
 
     for (element in cars) {
@@ -42,7 +41,7 @@ function showCars(array = cars) {
 
 function addCar(array = cars) {
     let plate = document.getElementById("button-2").value;
-    cars[plate] = [];
+    cars[plate] = ["", ""];
     showCars(cars);
 }
 
@@ -55,4 +54,8 @@ function deleteCar(array =cars) {
         }
     }
 
+    setTimeout(function() {
+        document.getElementById("button-3").value = "";
+    }, 1000);
+    
 }
