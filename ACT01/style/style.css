@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    color: white;
+    font-size: 50px;
+}
+
+header {
+    text-align: center;
+}
+
+#content {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+}
+
+p {
+    margin: 20px;
+    text-align: center;
+    margin: 30px;
+}
+
+h3 {
+    padding: 10px;
+    text-align: center;
+}
+
+.result {
+    font-size: bold;
+}
