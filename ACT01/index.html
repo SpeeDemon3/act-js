@@ -14,10 +14,17 @@
     <div id="content">
         <img src="img/stitch.png" alt="stitch">
         <p>
-            <a href="www.google.es">Click</a>
+            <a href="https://www.google.com/webhp?hl=es&sa=X&ved=0ahUKEwj-zOv5lo6JAxUFxgIHHS5qH8UQPAgI">Click</a>
         </p>
         <button onclick="greetingUser()">Hi</button>
         <button onclick="calculateFactorial()">Calculate factorial</button>
+    </div>
+    <div id="form">
+        <form action="index.html" method="get">
+            <label for="age">Age: </label>
+            <input type="text" name="age" id="age">
+            <input type="submit" id="submit" value="Send" onclick="isOfLegalAge()">
+        </form>
     </div>
     <div id="welcome"></div>
 

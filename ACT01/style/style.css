@@ -31,3 +31,19 @@ h3 {
 .result {
     font-size: bold;
 }
+
+#form {
+    text-align: center;
+    margin: 15px;
+    color: grey;
+}
+
+.okAge {
+    text-align: center;
+    color: greenyellow;
+}
+
+.notAge {
+    text-align: center;
+    color: red;
+}

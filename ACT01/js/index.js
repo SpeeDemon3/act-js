@@ -42,3 +42,19 @@ function calculateFactorial() {
     }
 
 }
+
+function isOfLegalAge() {
+    let age = document.getElementById('age').value;
+
+    let intAge = parseInt(age);
+
+    console.log("AGE: " + intAge);
+
+    if (intAge > 17) {
+        alert('You are of legal age.');        
+    } else if (isNaN(intAge)) {
+        alert('Please, enter a valid number.');
+    } else  {
+        alert("You aren't of legal age..");
+    }
+}
